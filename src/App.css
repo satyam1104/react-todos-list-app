@@ -24,7 +24,7 @@
   color: white;
 }
 
-.App-link {
+.App-Link {
   color: #61dafb;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: rgb(142, 194, 214);
+}
+.navbar-brand {
+  padding-top: .3125rem;
+  padding-left: 30rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a {
+  color: #000000;
+  text-decoration: none;
 }
